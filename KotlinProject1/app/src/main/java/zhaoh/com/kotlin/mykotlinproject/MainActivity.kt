@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             if (toFragment.isAdded) {
                 fragmentManager.beginTransaction().hide(currentFragment).show(toFragment).commit()
             } else {
-                fragmentManager.beginTransaction().hide(currentFragment).add(R.id.contain, toFragment, fragmentTags.get(position)).commit()
+                fragmentManager.beginTransaction().hide(currentFragment).add(R.id.contain, toFragment, fragmentTags[position]).commit()
             }
             currentFragment = toFragment
         }
