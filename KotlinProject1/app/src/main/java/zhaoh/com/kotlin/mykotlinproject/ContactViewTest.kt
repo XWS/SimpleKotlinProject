@@ -2,14 +2,25 @@ package zhaoh.com.kotlin.mykotlinproject
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 
 /**
  * Created by vic on 2017/5/19.
  */
 class ContactViewTest : AppCompatActivity() {
 
+    private var recycleView: RecyclerView? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.contactview_activity_layout)
+
+        init()
+    }
+
+    fun init(): Unit {
+        recycleView = findViewById(R.id.recycleView) as RecyclerView?
+        recycleView?.layoutManager = LinearLayoutManager(this)
     }
 }
