@@ -1,7 +1,9 @@
 package zhaoh.com.kotlin.mykotlinproject
 
+import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 
@@ -20,7 +22,9 @@ class ContactViewTest : AppCompatActivity() {
     }
 
     fun init(): Unit {
-        recycleView = findViewById(R.id.recycleView) as RecyclerView?
+        recycleView = findViewById(R.id.recycleView) as RecyclerView
         recycleView?.layoutManager = LinearLayoutManager(this)
+        val dividerItemDecoration = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
+        recycleView?.addItemDecoration(dividerItemDecoration)
     }
 }
