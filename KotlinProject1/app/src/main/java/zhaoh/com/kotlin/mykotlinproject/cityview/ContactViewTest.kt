@@ -1,4 +1,4 @@
-package zhaoh.com.kotlin.mykotlinproject
+package zhaoh.com.kotlin.mykotlinproject.cityview
 
 import android.content.Context
 import android.os.Bundle
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import zhaoh.com.kotlin.mykotlinproject.R
+import zhaoh.com.kotlin.mykotlinproject.adapter.CommonAdapter
 
 /**
  * Created by vic on 2017/5/19.
