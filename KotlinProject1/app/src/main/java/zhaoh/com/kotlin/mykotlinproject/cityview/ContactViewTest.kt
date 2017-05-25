@@ -8,6 +8,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import zhaoh.com.kotlin.mykotlinproject.R
 import zhaoh.com.kotlin.mykotlinproject.adapter.CommonAdapter
+import zhaoh.com.kotlin.mykotlinproject.bean.CityBean
 
 /**
  * Created by vic on 2017/5/19.
