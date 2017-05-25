@@ -16,6 +16,37 @@ import zhaoh.com.kotlin.mykotlinproject.bean.CityBean
 class ContactViewTest : AppCompatActivity() {
 
     private var recycleView: RecyclerView? = null
+    private val mData = listOf(
+            CityBean("A", "安徽")
+            , CityBean("B", "北京")
+            , CityBean("F", "福建")
+            , CityBean("G", "广东")
+            , CityBean("G", "甘肃")
+            , CityBean("G", "贵州")
+            , CityBean("G", "广西")
+            , CityBean("H", "河南")
+            , CityBean("H", "湖北")
+            , CityBean("H", "湖南")
+            , CityBean("H", "河北")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("J", "江苏")
+            , CityBean("R", "日本")
+            , CityBean("R", "日本")
+            , CityBean("R", "日本")
+            , CityBean("R", "日本"))
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
